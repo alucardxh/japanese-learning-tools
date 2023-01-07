@@ -9,6 +9,7 @@
   + 更多NPL项目可以参考这个github开源项目 https://github.com/taishi-i/awesome-japanese-nlp-resources/blob/main/README.md 涵盖基本所有的日语的NPL项目。
 + 其余功能主要是将影视剧中的字幕文件进行转换，这样在对影视剧进行精听训练时就是直接就是划分好的日文字幕。
 + 使用某款app也能解决该问题，但是当需要大量的可理解输入的时候，一句句查效率很低。
++ 目前项目中很多地方需要根据自己的需求进行修改才能使用，未来随着我接触字幕的增多，我将会对代码进行抽象无需修改，直接转换。
 
 ### 项目依赖
 1. 主要依赖这个项目 https://github.com/kenkov/cabocha 使用cabocho这个分词工具
