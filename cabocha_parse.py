@@ -67,7 +67,3 @@ if __name__ == '__main__':
     # print(sys.argv[1])
     file = "/Users/daw/Downloads/[Kamigami] Shirokuma(Polar Bear) Cafe 01-50 [1280x720 x264 AAC MKV Sub(GB,BIG5,Jap)/[Kamigami] Shirokuma Cafe - 15 [1280x720 x264 AAC Sub(GB,BIG5,JP).ass"
     convert_ass(file)
-    # b = line.split(",")
-    # d = b[0:-1]
-    # d.append(parse_sentence(b[-1]))
-    # file_object.write(",".join(d)+'\n')
