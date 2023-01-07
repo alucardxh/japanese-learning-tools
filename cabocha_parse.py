@@ -55,7 +55,7 @@ def convert_ass(file_name):
             split_info = line.split(",")
             chunks_japanese = parse_sentence(split_info[-1].strip())+"\n"
             drop_last = split_info[0:-1]
-            drop_last.append(chunks_japanese)
+            drop_last.append(chunks_japanese.replace(" ", "　"))
             file_object.write(",".join(drop_last))
         else:
             file_object.write(line)
@@ -65,5 +65,5 @@ def convert_ass(file_name):
 if __name__ == '__main__':
     # print(sys.argv)
     # print(sys.argv[1])
-    file = "/Users/daw/Downloads/[Kamigami] Shirokuma(Polar Bear) Cafe 01-50 [1280x720 x264 AAC MKV Sub(GB,BIG5,Jap)/[Kamigami] Shirokuma Cafe - 15 [1280x720 x264 AAC Sub(GB,BIG5,JP).ass"
+    file = "./demo.ass"
     convert_ass(file)
